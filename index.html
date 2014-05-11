@@ -4,6 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <title>Ian Gustafson</title>
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset-fonts-grids/reset-fonts-grids.css">
+    <script type="text/javascript">
+      var images = [
+        "camel.jpg",
+        "war_monument.jpg",
+        "books.jpg",
+        "cuckoldry.jpg"
+      ];
+      var imageFilename = images[Math.floor(Math.random()*images.length)];
+      imageTag = '<img src="images/splash/'+imageFilename+'" />';
+    </script>
     <style type="text/css">
       html, body {
         background: #3B3D43;
@@ -79,7 +89,7 @@
               <div class="frame">
                 <div class="frame">
                   <div class="frame">
-                    <img src="images/splash/camel.jpg" />
+                    <script type="text/javascript">document.write(imageTag);</script>
                   </div>
                 </div>
               </div>
